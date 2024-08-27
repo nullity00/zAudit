@@ -10,9 +10,9 @@ export const GradientWord = styled.span`
 
 function HeroSection() {
   return (
-    <div className="h-full relative sm:my-16 lg:m-40">
+    <div className="h-full relative sm:my-16 lg:m-56">
       <div className="mx-auto text-center">
-        <h1 className="lg:leading-normal lg:text-6xl md:text-4xl sm:text-4xl font-bold">
+        <h1 className="lg:leading-normal lg:text-5xl md:text-4xl sm:text-4xl font-bold">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -31,12 +31,12 @@ function HeroSection() {
                 )
                 .typeString(" <br /> so no one else can")
                 .pauseFor(500)
-                // .pauseFor(20000)
+                .pauseFor(20000)
                 .start();
             }}
             options={{
               autoStart: true,
-              loop: false,
+              loop: true,
               delay: 80,
             }}
           />

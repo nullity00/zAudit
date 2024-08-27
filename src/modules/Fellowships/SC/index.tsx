@@ -58,7 +58,7 @@ function SmartContracts() {
             .
           </p>
           <a href="https://tally.so/r/nG9o6e" target="_blank">
-            <button className="w-1/2 px-8 py-3 rounded-xl text-md text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+            <button className="w-1/2 px-8 py-3 rounded-xl text-md text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
               Apply
             </button>
           </a>
@@ -69,7 +69,7 @@ function SmartContracts() {
               <p className="text-xl font-semibold leading-6 text-gray-600">
                 Duration
               </p>
-              <p className="text-sm font-semibold leading-6 text-darkgreen">
+              <p className="text-sm font-semibold leading-6 text-blue">
                 4-6 weeks
               </p>
             </div>
@@ -77,7 +77,7 @@ function SmartContracts() {
               <p className="text-xl font-semibold leading-6 text-gray-600">
                 Time Commitment
               </p>
-              <p className="text-sm font-semibold leading-6 text-darkgreen">
+              <p className="text-sm font-semibold leading-6 text-blue">
                 {">"} 20 hours/week
               </p>
             </div>

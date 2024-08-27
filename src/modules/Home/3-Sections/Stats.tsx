@@ -19,7 +19,7 @@ export default function Stats() {
                   <h3 className="lg:text-5xl text-3xl font-semibold leading-6">
                     {item.number}
                   </h3>
-                  <p className="text-sm font-semibold text-darkgreen mt-3">
+                  <p className="text-sm font-semibold text-blue mt-3">
                     {item.text}
                   </p>
                 </div>
@@ -37,7 +37,7 @@ export default function Stats() {
             ventures, generating a cascading wave of excellence.
           </p>
           <a href="https://reports.yacademy.dev/" target="_blank">
-            <button className="px-8 py-3 rounded-xl sm:w-full text-md text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+            <button className="px-8 py-3 rounded-xl sm:w-full text-md text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
               View Reports
             </button>
           </a>

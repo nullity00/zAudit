@@ -9,7 +9,7 @@ export default function PartnerUp() {
           Partner up with <br /> a Protocol Audit
         </h1>
         <Link to={"/contact-us"}>
-          <button className="px-8 py-3 rounded-xl text-md text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+          <button className="px-8 py-3 rounded-xl text-md text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
             Contact Us
           </button>
         </Link>

@@ -14,17 +14,17 @@ function ZK() {
               Previous ZK Cohorts
             </p>
             <Link to="/zBlock1">
-              <p className="text-md font-semibold leading-8 text-darkgreen">
+              <p className="text-md font-semibold leading-8 text-blue">
                 zBlock1 (May 2023)
               </p>
             </Link>
             <Link to="/zBlock2">
-              <p className="text-md font-semibold leading-8 text-darkgreen">
+              <p className="text-md font-semibold leading-8 text-blue">
                 zBlock2 (Jan - May 2024)
               </p>
             </Link>
 
-            <p className="text-sm font-semibold leading-6 text-darkgreen"></p>
+            <p className="text-sm font-semibold leading-6 text-blue"></p>
           </div>
           <div>
             <h2 className="text-semibold text-xl mb-4">Highlights</h2>
@@ -79,7 +79,7 @@ function ZK() {
             incorrect email)
           </p>
           <a href="https://tally.so/r/mRdG89" target="_blank">
-            <button className="w-1/2 px-8 py-3 rounded-xl text-md text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+            <button className="w-1/2 px-8 py-3 rounded-xl text-md text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
               Apply
             </button>
           </a>
@@ -90,7 +90,7 @@ function ZK() {
               <p className="text-xl font-semibold leading-6 text-gray-600">
                 Duration
               </p>
-              <p className="text-sm font-semibold leading-6 text-darkgreen">
+              <p className="text-sm font-semibold leading-6 text-blue">
                 1-3 months
               </p>
             </div>
@@ -98,7 +98,7 @@ function ZK() {
               <p className="text-xl font-semibold leading-6 text-gray-600">
                 Time Commitment
               </p>
-              <p className="text-sm font-semibold leading-6 text-darkgreen">
+              <p className="text-sm font-semibold leading-6 text-blue">
                 {">"} 20 hours/week
               </p>
             </div>

@@ -1,30 +1,7 @@
 export default function ClientSection() {
   const clients = [
-    { name: "Yearn", logo: "yearn.png", website: "https://yearn.fi/" },
     {
-      name: "Superfluid",
-      logo: "superfluid.png",
-      website: "https://www.superfluid.finance/",
-    },
-    {
-      name: "Get Protocol",
-      logo: "getprotocol.png",
-      website: "https://www.get-protocol.io/",
-    },
-    {
-      name: "Llama Pay",
-      logo: "llamapay.png",
-      website: "https://llamapay.io/",
-    },
-    {
-      name: "Lamalend",
-      logo: "lamalend.png",
-      website: "https://llamalendnft.com/",
-    },
-    { name: "Exit10", logo: "exit10.png", website: "https://exit10.com/" },
-    { name: "Vmex", logo: "vmex.png", website: "https://vmex.finance/" },
-    {
-      name: "Personae Lab",
+      name: "Personae Labs",
       logo: "personaelab.png",
       website: "https://www.personaelabs.xyz/",
     },
@@ -38,8 +15,8 @@ export default function ClientSection() {
   return (
     <section className="bg-white m-6">
       <div className="lg:mx-40">
-        <h2 className="lg:text-5xl text-3xl font-bold mb-10 sm:text-center">
-          Our Clients
+        <h2 className="lg:text-5xl text-3xl font-bold mb-10 text-center">
+          Our Partners
         </h2>
         <div className="grid grid-cols-3 gap-4">
           {clients.map((client, index) => (

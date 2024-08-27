@@ -35,16 +35,16 @@ export default function Summary() {
     <div className="my-16">
       <h2 className="text-3xl font-bold text-center mb-8">Choose your hard</h2>
       <div className="sm:block">
-        <div className="bg-emeraldlight bg-opacity-5 rounded-xl">
+        <div className="bg-violet bg-opacity-5 rounded-xl">
           <nav className="-mb-px grid grid-cols-3" aria-label="Tabs">
             {tabs.map((tab) => (
               <a key={tab.name} href={tab.href} className="col-span-1">
                 <button
                   onClick={() => setCurrentTab(tab.name)}
-                  className={`w-full p-3 rounded-xl text-md hover:bg-emeraldlight hover:bg-opacity-25 hover:text-darkgreen duration-700 ${
+                  className={`w-full p-3 rounded-xl text-md hover:bg-violet hover:bg-opacity-25 hover:text-blue duration-700 ${
                     tab.name === currentTab
-                      ? "bg-emeraldlight bg-opacity-25 text-darkgreen"
-                      : "text-emeraldlight"
+                      ? "bg-violet bg-opacity-25 text-blue"
+                      : "text-violet"
                   }`}
                 >
                   {tab.name}
@@ -61,7 +61,7 @@ export default function Summary() {
       </div>
       <div className="my-16 flex flex-row gap-4 p-8 items-center rounded-2xl bg-[#E8FFF8]">
         <img src="/bulb.svg" className="h-[4rem]" />
-        <p className="text-darkgreen text-sm">
+        <p className="text-blue text-sm">
           If you think our program is too advanced for you now, fear not, you
           can still join after going through an introductory program such as{" "}
           <a

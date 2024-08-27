@@ -30,7 +30,7 @@ export default function Fellowships() {
             where auditors are cultivated rather than simply hired.
           </p>
           <Link to={"/fellowships"}>
-            <button className="px-8 py-3 rounded-xl sm:w-full text-md sm:text-sm text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+            <button className="px-8 py-3 rounded-xl sm:w-full text-md sm:text-sm text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
               Explore Fellowships
             </button>
           </Link>

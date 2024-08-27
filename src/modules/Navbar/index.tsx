@@ -9,7 +9,7 @@ interface Props {
 
 function Button({ text }: { text: string }) {
   return (
-    <button className="px-6 py-3 rounded-xl text-sm text-zinc-400 hover:text-emeraldlight hover:bg-white hover:bg-opacity-5 duration-700">
+    <button className="px-6 py-3 rounded-xl text-sm text-zinc-400 hover:text-violet hover:bg-white hover:bg-opacity-5 duration-700">
       {text}
     </button>
   );
@@ -18,7 +18,7 @@ function Button({ text }: { text: string }) {
 export function Navbar({ menuOpen, setMenuOpen }: Props) {
   return (
     <div className="w-full flex h-18 items-center justify-between top-0 p-6">
-      <div className="flex flex-row gap-4 text-emeraldlight items-center text-xl lg:ml-36">
+      <div className="flex flex-row gap-4 text-violet items-center text-xl lg:ml-36">
         <Link to={"/"}>
           <img src="/logo.svg" className="h-10" />
         </Link>
@@ -52,7 +52,7 @@ export function Navbar({ menuOpen, setMenuOpen }: Props) {
           <Button text={"zBlock2"} />
         </Link>
         <Link to={"/contact-us"}>
-          <button className="px-8 py-3 rounded-xl text-md text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+          <button className="px-8 py-3 rounded-xl text-md text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
             Contact Us
           </button>
         </Link>
@@ -98,23 +98,23 @@ export function MobileNavbar({ setMenuOpen }: MobileProps) {
             onClick={() => {
               setMenuOpen(false);
             }}
-            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-white hover:bg-opacity-5 duration-700"
+            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-white hover:bg-opacity-5 duration-700"
           >
             Members
           </button>
         </Link>
         <a href="https://reports.yacademy.dev/">
-          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-darkgreen hover:bg-opacity-5 duration-700">
+          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-blue hover:bg-opacity-5 duration-700">
             Reports
           </button>
         </a>
         <a href="https://proxies.yacademy.dev/">
-          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-darkgreen hover:bg-opacity-5 duration-700">
+          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-blue hover:bg-opacity-5 duration-700">
             Proxies Research
           </button>
         </a>
         <a href="https://blog.yacademy.dev/">
-          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-darkgreen hover:bg-opacity-5 duration-700">
+          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-blue hover:bg-opacity-5 duration-700">
             Blog
           </button>
         </a>
@@ -124,7 +124,7 @@ export function MobileNavbar({ setMenuOpen }: MobileProps) {
             onClick={() => {
               setMenuOpen(false);
             }}
-            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-darkgreen hover:bg-opacity-5 duration-700"
+            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-blue hover:bg-opacity-5 duration-700"
           >
             Fellowships
           </button>
@@ -135,7 +135,7 @@ export function MobileNavbar({ setMenuOpen }: MobileProps) {
             onClick={() => {
               setMenuOpen(false);
             }}
-            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-darkgreen hover:bg-opacity-5 duration-700"
+            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-blue hover:bg-opacity-5 duration-700"
           >
             zBlock1
           </button>
@@ -145,7 +145,7 @@ export function MobileNavbar({ setMenuOpen }: MobileProps) {
             onClick={() => {
               setMenuOpen(false);
             }}
-            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-emeraldlight hover:bg-darkgreen hover:bg-opacity-5 duration-700"
+            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-violet hover:bg-blue hover:bg-opacity-5 duration-700"
           >
             zBlock2
           </button>
@@ -156,7 +156,7 @@ export function MobileNavbar({ setMenuOpen }: MobileProps) {
             onClick={() => {
               setMenuOpen(false);
             }}
-            className="p-6 rounded-xl w-full text-xl text-emeraldlight text-bold hover:bg-darkgreen hover:bg-opacity-5 duration-700"
+            className="p-6 rounded-xl w-full text-xl text-violet text-bold hover:bg-blue hover:bg-opacity-5 duration-700"
           >
             Contact Us
           </button>

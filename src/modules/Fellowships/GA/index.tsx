@@ -48,7 +48,7 @@ function GuestAuditor() {
             contact us at hello AT yacademy DOT dev
           </p>
           {/* <Link to={"/fellowships"}>
-            <button className="w-1/2 px-8 py-3 rounded-xl text-md text-darkgreen text-bold bg-emeraldlight bg-opacity-25 hover:bg-opacity-5 hover:text-emeraldlight duration-700">
+            <button className="w-1/2 px-8 py-3 rounded-xl text-md text-blue text-bold bg-violet bg-opacity-25 hover:bg-opacity-5 hover:text-violet duration-700">
               Apply
             </button>
           </Link> */}

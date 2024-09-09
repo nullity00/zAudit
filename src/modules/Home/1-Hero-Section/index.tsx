@@ -10,14 +10,14 @@ export const GradientWord = styled.span`
 
 function HeroSection() {
   return (
-    <div className="h-full relative sm:my-16 lg:m-56">
-      <div className="mx-auto text-center">
-        <h1 className="lg:leading-normal lg:text-5xl md:text-4xl sm:text-4xl font-bold">
+    <div className="h-full relative sm:my-16 lg:mx-56 lg:my-32 flex flex-row justify-between">
+      <div className="my-8">
+        <h1 className="lg:leading-normal lg:text-5xl md:text-3xl sm:text-3xl font-bold">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
                 .typeString(
-                  'Breaking your <span style="background: linear-gradient(360deg, #0e0498 -16.67%, #454ae2 100%); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">proofs</span>'
+                  'Breaking your <br /> <span style="background: linear-gradient(360deg, #0e0498 -16.67%, #454ae2 100%); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">proofs</span>'
                 )
                 .pauseFor(500)
                 .deleteChars(6)
@@ -29,8 +29,9 @@ function HeroSection() {
                 .typeString(
                   '<span style="background: linear-gradient(360deg, #0e0498 -16.67%, #454ae2 100%); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">cryptography</span>'
                 )
-                .typeString(" <br /> so no one else can")
+
                 .pauseFor(500)
+                .typeString(" <br /> so no one else can")
                 .pauseFor(20000)
                 .start();
             }}
@@ -41,7 +42,7 @@ function HeroSection() {
             }}
           />
         </h1>
-        <h2 className="text-center sm:text-center my-4 text-zinc-500">
+        <h2 className="sm:text-center my-4 text-zinc-500">
           Don’t let a soundness bug rekt your protocol
         </h2>
         <Link to={"/fellowships"}>
@@ -50,6 +51,7 @@ function HeroSection() {
           </button>
         </Link>
       </div>
+      <img src="hero.svg" className="h-[26rem]" />
     </div>
   );
 }

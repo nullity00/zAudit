@@ -67,7 +67,7 @@ export default function Team() {
   return (
     <div className="lg:mx-56 lg:my-20">
       <h1 className="lg:text-5xl text-3xl font-bold mb-10 text-center">
-        The Dream Team
+        Team
       </h1>
       <p>
         zAudit's technical team consists of zkbrains, zkchads, and

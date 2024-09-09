@@ -37,9 +37,9 @@
      inkscape:window-height="991"
      id="namedview134"
      showgrid="false"
-     inkscape:zoom="0.54246957"
-     inkscape:cx="2326.7276"
-     inkscape:cy="459.74689"
+     inkscape:zoom="0.27123478"
+     inkscape:cx="839.9432"
+     inkscape:cy="492.31227"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -295,7 +295,7 @@
   <rect
      inkscape:export-ydpi="720"
      inkscape:export-xdpi="720"
-     inkscape:export-filename="A:\Sic Mundus\rect844.png"
+     inkscape:export-filename="A:\Sic Mundus\rect44.png"
      y="170.53429"
      x="1491.8929"
      height="1008.9057"
@@ -461,4 +461,14 @@
        x="1985.3647"
        id="tspan1032"
        sodipodi:role="line">Blog 2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="2022.2332"
+     y="959.51703"
+     id="text1038"><tspan
+       sodipodi:role="line"
+       id="tspan1036"
+       x="2022.2332"
+       y="959.51703">Blog 3</tspan></text>
 </svg>
